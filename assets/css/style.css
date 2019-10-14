@@ -1,0 +1,284 @@
+/* Regole Generali */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0 !important;
+}
+
+/* Background Sezioni */
+.bg-hf {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.bg-ca {
+  background-color: #1abc9c;
+}
+
+
+/* Divider + Icon Star (Cover image e About) */
+.divider-custom {
+  padding: 25px 0;
+}
+.divider-custom .fa-star {
+  font-size:40px;
+  color:#fff;
+}
+.divider-custom .btn-default {
+  width: 90px;
+  padding: 1px 0;
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  margin-bottom: 20px;
+  height: .55rem;
+}
+.divider-custom .btn-default:last-child {
+  margin-left: 10px;
+}
+.divider-custom .btn-default:first-child {
+  margin-right: 10px;
+}
+/* Divider + Icon Star (Portfolio e Form contatti) */
+.bg-porm .divider-custom .fa-star {
+  color:#2c3e50;
+}
+.bg-porm .divider-custom .btn-default {
+  color: #2c3e50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+/* Header e Barra di Navigazione */
+header .navbar {
+  border-radius: 0;
+  padding: 25px 0;
+  margin-bottom: 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+/* Regole del logo */
+header .navbar-default .navbar-brand {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+header .navbar-default .navbar-brand:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* Regole del menu a panino */
+header .navbar-default .navbar-toggle {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+header .navbar-default .navbar-toggle:focus,
+header .navbar-default .navbar-toggle:hover {
+  background-color: #148F77;
+  border-color: #148F77;
+}
+header .navbar-default .navbar-collapse {
+  border: 0;
+}
+
+/* Navbar Right */
+header .navbar-right {
+  font-size: 18px;
+  font-weight: 700;
+}
+header .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+header .navbar-default .navbar-nav>li>a:hover {
+  color: #1abc9c;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+/* Sezione Cover */
+.title-cover {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.text-cover {
+  color: #fff;
+  font-size: 24px;
+}
+
+.padding-cover {
+  padding: 190px 0 90px 0;
+}
+
+/* Sezione Portfolio */
+.padding-port {
+  padding: 90px 0;
+}
+
+.bg-porm img {
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto 30px auto;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 100%;
+  background-color: rgba(26,188,156,.9);
+  border-color: rgba(26,188,156,.9);
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.fa-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 75px;
+}
+
+.title-blue {
+  color: #2c3e50;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+/* Sezione About */
+.padding-ab {
+  padding
+}
+
+.title-ab {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.text-ab {
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-default {
+  background-color: #1abc9c;
+  border: 1px solid #fff!important;
+}
+
+.text-bt {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+/* Sezione Contact */
+.text-form {
+  font-size: 20px;
+  color: #495057;
+  padding: 30px 0;
+}
+form .text-form {
+  width: 100%;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: solid 1px lightgray!important;
+}
+.invia {
+  color: #fff;
+  background-color: #1abc9c;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 3%;
+}
+form input:last-child:hover {
+  background-color: #148F77;
+  border-color: #148F77;
+}
+
+/* Sezione Footer */
+.padding-ft {
+  padding: 40px 0;
+}
+
+.title-ft {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text-ft {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+footer .fa {
+  padding: 0 20px 20px 20px;
+  margin: 5px 2px;
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .fa:hover {
+  color: #148F77;
+  text-decoration: none;
+}
+
+footer p a {
+  color: #1abc9c;
+}
+
+/* Sezione Copyright */
+.copyright {
+  background-color: #1a252f;
+  height: 72px;
+}
+
+.text-copy {
+  color: #fff;
+  padding-top: 25px;
+}
+
+
+@media all and (max-width: 992px){
+  .title-cover {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+}
+
+@media all and (min-width: 992px){
+  /* Regole Responsive della barra di navigazione */
+  header .navbar-default .navbar-brand {
+    font-size: 28px;
+  }
+}
